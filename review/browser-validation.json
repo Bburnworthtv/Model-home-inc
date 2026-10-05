@@ -1,0 +1,264 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "device": "desktop",
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": "Flooring, Cabinetry & Custom Interior Work in North County San Diego"
+    },
+    {
+      "device": "desktop",
+      "route": "/custom",
+      "status": 200,
+      "overflow": false,
+      "h1": "CUSTOM KITCHEN CABINETRY IN NORTH COUNTY SAN DIEGO"
+    },
+    {
+      "device": "desktop",
+      "route": "/wood",
+      "status": 200,
+      "overflow": false,
+      "h1": "HARDWOOD FLOORING & INSTALLATION IN NORTH COUNTY SAN DIEGO"
+    },
+    {
+      "device": "desktop",
+      "route": "/waterproof",
+      "status": 200,
+      "overflow": false,
+      "h1": "WATERPROOF"
+    },
+    {
+      "device": "desktop",
+      "route": "/semi-custom",
+      "status": 200,
+      "overflow": false,
+      "h1": ""
+    },
+    {
+      "device": "desktop",
+      "route": "/rta",
+      "status": 200,
+      "overflow": false,
+      "h1": ""
+    },
+    {
+      "device": "desktop",
+      "route": "/tile",
+      "status": 200,
+      "overflow": false,
+      "h1": ""
+    },
+    {
+      "device": "desktop",
+      "route": "/vanity",
+      "status": 200,
+      "overflow": false,
+      "h1": ""
+    },
+    {
+      "device": "desktop",
+      "route": "/faucet",
+      "status": 200,
+      "overflow": false,
+      "h1": "FAUCET"
+    },
+    {
+      "device": "desktop",
+      "route": "/doors",
+      "status": 200,
+      "overflow": false,
+      "h1": ""
+    },
+    {
+      "device": "desktop",
+      "route": "/moulding",
+      "status": 200,
+      "overflow": false,
+      "h1": ""
+    },
+    {
+      "device": "phone",
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": "Flooring, Cabinetry & Custom Interior Work in North County San Diego"
+    },
+    {
+      "device": "phone",
+      "route": "/custom",
+      "status": 200,
+      "overflow": false,
+      "h1": "CUSTOM KITCHEN CABINETRY IN NORTH COUNTY SAN DIEGO"
+    },
+    {
+      "device": "phone",
+      "route": "/wood",
+      "status": 200,
+      "overflow": false,
+      "h1": "HARDWOOD FLOORING & INSTALLATION IN NORTH COUNTY SAN DIEGO"
+    },
+    {
+      "device": "phone",
+      "route": "/waterproof",
+      "status": 200,
+      "overflow": false,
+      "h1": "WATERPROOF"
+    },
+    {
+      "device": "phone",
+      "route": "/semi-custom",
+      "status": 200,
+      "overflow": false,
+      "h1": "SEMI-CUSTOM"
+    },
+    {
+      "device": "phone",
+      "route": "/rta",
+      "status": 200,
+      "overflow": false,
+      "h1": "RTA"
+    },
+    {
+      "device": "phone",
+      "route": "/tile",
+      "status": 200,
+      "overflow": false,
+      "h1": "TILE"
+    },
+    {
+      "device": "phone",
+      "route": "/vanity",
+      "status": 200,
+      "overflow": false,
+      "h1": "VANITY"
+    },
+    {
+      "device": "phone",
+      "route": "/faucet",
+      "status": 200,
+      "overflow": false,
+      "h1": "FAUCET"
+    },
+    {
+      "device": "phone",
+      "route": "/doors",
+      "status": 200,
+      "overflow": false,
+      "h1": "DOORS"
+    },
+    {
+      "device": "phone",
+      "route": "/moulding",
+      "status": 200,
+      "overflow": false,
+      "h1": "MOULDING"
+    },
+    {
+      "device": "phone",
+      "menu": "open, Escape focus restoration, contact navigation and collapsed state passed"
+    },
+    {
+      "device": "tablet",
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": "Flooring, Cabinetry & Custom Interior Work in North County San Diego"
+    },
+    {
+      "device": "tablet",
+      "route": "/custom",
+      "status": 200,
+      "overflow": false,
+      "h1": "CUSTOM KITCHEN CABINETRY IN NORTH COUNTY SAN DIEGO"
+    },
+    {
+      "device": "tablet",
+      "route": "/wood",
+      "status": 200,
+      "overflow": false,
+      "h1": "HARDWOOD FLOORING & INSTALLATION IN NORTH COUNTY SAN DIEGO"
+    },
+    {
+      "device": "tablet",
+      "route": "/waterproof",
+      "status": 200,
+      "overflow": false,
+      "h1": "WATERPROOF"
+    },
+    {
+      "device": "tablet",
+      "route": "/semi-custom",
+      "status": 200,
+      "overflow": false,
+      "h1": "SEMI-CUSTOM"
+    },
+    {
+      "device": "tablet",
+      "route": "/rta",
+      "status": 200,
+      "overflow": false,
+      "h1": "RTA"
+    },
+    {
+      "device": "tablet",
+      "route": "/tile",
+      "status": 200,
+      "overflow": false,
+      "h1": "TILE"
+    },
+    {
+      "device": "tablet",
+      "route": "/vanity",
+      "status": 200,
+      "overflow": false,
+      "h1": "VANITY"
+    },
+    {
+      "device": "tablet",
+      "route": "/faucet",
+      "status": 200,
+      "overflow": false,
+      "h1": "FAUCET"
+    },
+    {
+      "device": "tablet",
+      "route": "/doors",
+      "status": 200,
+      "overflow": false,
+      "h1": "DOORS"
+    },
+    {
+      "device": "tablet",
+      "route": "/moulding",
+      "status": 200,
+      "overflow": false,
+      "h1": "MOULDING"
+    },
+    {
+      "contact": "Real local handler: missing configuration error, retained values, zero leads"
+    },
+    {
+      "contact": "Mock acceptance: one request for repeat clicks; one lead event for repeated receipt"
+    },
+    {
+      "analytics": "Events contain no visitor name, contact details, city or message"
+    },
+    {
+      "contact": "rejection with HTTP 200",
+      "lead_events": 0
+    },
+    {
+      "contact": "provider error",
+      "lead_events": 0
+    },
+    {
+      "contact": "test acceptance",
+      "lead_events": 0
+    },
+    {
+      "contact": "Honeypot: rejected before request; zero leads"
+    }
+  ]
+}

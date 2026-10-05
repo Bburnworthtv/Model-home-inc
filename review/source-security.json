@@ -1,0 +1,15 @@
+{
+  "github_push_protection": "Mapping credential flagged in public source captures; literal uses a pk prefix, reported by GitHub as Mapbox Secret Access Token",
+  "action": "Removed unused mapping credential configuration from captured source, candidate HTML and unpublished commit. No bypass.",
+  "counts": {
+    "live-source": {
+      "files_sanitized": 33,
+      "mapping_credential_fields_removed": 99
+    },
+    "site": {
+      "files_sanitized": 36,
+      "mapping_credential_fields_removed": 108
+    }
+  },
+  "visible_map_widgets": 0
+}

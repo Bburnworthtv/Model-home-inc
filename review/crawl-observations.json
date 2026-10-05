@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-10-05",
+  "discovery": "Live navigation, supplied routes, public sitemap. Not a full catalog or search inventory.",
+  "observations": [
+    {
+      "url": "/robots.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "body_excerpt": "# Sitemap is also available on /sitemap.xml\nSitemap: https://www.modelhomeinc.com/sitemap.xml\nUser-agent: *\n\n"
+    },
+    {
+      "url": "/sitemap.xml",
+      "status": 200,
+      "content_type": "text/xml",
+      "body_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n    <url>\n        <loc>https://www.model"
+    },
+    {
+      "url": "/sitemap_index.xml",
+      "status": 404,
+      "content_type": "text/html;charset=utf-8",
+      "body_excerpt": "<!doctype html >\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"\n      class=\"ios-preview-native-scroll\">\n<head>\n    <meta charset=\"utf-8\">\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<script type=\""
+    }
+  ],
+  "url_count": 563
+}

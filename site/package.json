@@ -1,0 +1,5 @@
+{
+  "name": "model-home-live-template-review",
+  "private": true,
+  "engines": {"node": "22.x"}
+}

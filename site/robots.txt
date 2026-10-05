@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /_variants/
+
 Sitemap: https://www.modelhomeinc.com/sitemap.xml

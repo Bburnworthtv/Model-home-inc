@@ -1,0 +1,985 @@
+{
+  "checks": [
+    {
+      "device": "desktop",
+      "route": "custom",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "wood",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "waterproof",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "custom",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "lineHeight": "43.2px",
+          "letterSpacing": "3.6px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "lineHeight": "45px",
+          "letterSpacing": "3px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "lineHeight": "43.2px",
+          "letterSpacing": "3.6px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "lineHeight": "45px",
+          "letterSpacing": "3px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "wood",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "lineHeight": "43.2px",
+          "letterSpacing": "3.6px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "lineHeight": "45px",
+          "letterSpacing": "3px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "lineHeight": "43.2px",
+          "letterSpacing": "3.6px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "lineHeight": "45px",
+          "letterSpacing": "3px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "waterproof",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "lineHeight": "43.2px",
+          "letterSpacing": "3.6px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "lineHeight": "45px",
+          "letterSpacing": "3px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "lineHeight": "43.2px",
+          "letterSpacing": "3.6px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "lineHeight": "45px",
+          "letterSpacing": "3px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "32px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "tablet",
+      "route": "custom",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "tablet",
+      "route": "wood",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    },
+    {
+      "device": "tablet",
+      "route": "waterproof",
+      "differences": [],
+      "live": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      },
+      "preview": {
+        "hero": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "72px",
+          "fontWeight": "700",
+          "lineHeight": "86.4px",
+          "letterSpacing": "7.2px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "heading": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "72px",
+          "letterSpacing": "4.8px",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "bodycopy": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "27px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        },
+        "button": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "22px",
+          "letterSpacing": "normal",
+          "color": "rgb(70, 57, 57)",
+          "backgroundColor": "rgb(73, 86, 106)",
+          "textTransform": "none"
+        },
+        "footer": {
+          "fontFamily": "Poppins, \"Poppins Fallback\"",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "36px",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "textTransform": "none"
+        }
+      }
+    }
+  ]
+}
