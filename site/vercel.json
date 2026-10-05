@@ -1,0 +1,32 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/store",
+      "destination": "/wood",
+      "permanent": true
+    },
+    {
+      "source": "/store/:path*",
+      "destination": "/wood",
+      "permanent": true
+    },
+    {
+      "source": "/quote",
+      "destination": "/#contact",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
