@@ -1,0 +1,67 @@
+[
+  {
+    "name": "before-home-1440",
+    "title": "Custom Flooring & Cabinets in San Marcos, CA | Model Home Inc. | 760-682-5027",
+    "h1": "NATIONWIDE EXPERTS IN CUSTOM FLOORING AND CABINETRY",
+    "overflow": false,
+    "images": [
+      "http://127.0.0.1:4174/assets/img/bath-1600.webp",
+      "http://127.0.0.1:4174/assets/img/home-door-800.webp",
+      "http://127.0.0.1:4174/assets/img/home-moulding-800.webp",
+      "http://127.0.0.1:4174/assets/img/logo-white.png"
+    ],
+    "errors": []
+  },
+  {
+    "name": "before-custom-1440",
+    "title": "Custom Kitchen Services | San Marcos, CA",
+    "h1": "Crafting Your\nCulinary Haven",
+    "overflow": false,
+    "images": [
+      "http://127.0.0.1:4174/assets/img/logo-white.png"
+    ],
+    "errors": []
+  },
+  {
+    "name": "before-wood-1440",
+    "title": "Stylish Wooden Flooring | San Marcos, CA",
+    "h1": "A Foundation of\nBeauty",
+    "overflow": false,
+    "images": [],
+    "errors": []
+  },
+  {
+    "name": "before-home-390",
+    "title": "Custom Flooring & Cabinets in San Marcos, CA | Model Home Inc. | 760-682-5027",
+    "h1": "NATIONWIDE EXPERTS IN CUSTOM FLOORING AND CABINETRY",
+    "overflow": false,
+    "images": [
+      "http://127.0.0.1:4174/assets/img/home-kitchen-800.webp",
+      "http://127.0.0.1:4174/assets/img/bath-1600.webp",
+      "http://127.0.0.1:4174/assets/img/home-door-800.webp",
+      "http://127.0.0.1:4174/assets/img/home-moulding-800.webp",
+      "http://127.0.0.1:4174/assets/img/logo-white.png"
+    ],
+    "errors": []
+  },
+  {
+    "name": "before-custom-390",
+    "title": "Custom Kitchen Services | San Marcos, CA",
+    "h1": "Crafting Your\nCulinary Haven",
+    "overflow": false,
+    "images": [
+      "http://127.0.0.1:4174/assets/img/logo-white.png"
+    ],
+    "errors": []
+  },
+  {
+    "name": "before-wood-390",
+    "title": "Stylish Wooden Flooring | San Marcos, CA",
+    "h1": "A Foundation of\nBeauty",
+    "overflow": false,
+    "images": [
+      "http://127.0.0.1:4174/assets/img/logo-white.png"
+    ],
+    "errors": []
+  }
+]

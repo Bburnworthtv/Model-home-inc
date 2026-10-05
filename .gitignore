@@ -4,3 +4,17 @@ node_modules/
 .vercel/
 .DS_Store
 browser-data/
+live-baseline/
+review/screenshots/*
+!review/screenshots/live-home-1440.png
+!review/screenshots/live-custom-1440.png
+!review/screenshots/live-wood-1440.png
+!review/screenshots/live-home-390.png
+!review/screenshots/live-custom-390.png
+!review/screenshots/live-wood-390.png
+!review/screenshots/after-home-1440.png
+!review/screenshots/after-custom-1440.png
+!review/screenshots/after-wood-1440.png
+!review/screenshots/after-home-390.png
+!review/screenshots/after-custom-390.png
+!review/screenshots/after-wood-390.png

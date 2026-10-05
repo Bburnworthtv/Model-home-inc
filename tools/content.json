@@ -1,0 +1,137 @@
+{
+  "business": {
+    "name": "Model Home Inc.",
+    "telephone": "+1-760-682-5027",
+    "email": "info@modelhomeinc.com",
+    "locality": "San Marcos",
+    "region": "CA",
+    "description": "Model Home Inc. is a San Marcos storefront offering flooring and cabinetry materials, custom material sourcing and installation through its installers. Discuss a North County San Diego home project."
+  },
+  "pages": {
+    "": {
+      "name": "Home",
+      "title": "Flooring & Cabinet Installation in San Marcos | Model Home Inc.",
+      "description": "Plan your flooring or cabinetry project with Model Home Inc. in San Marcos. Material selection, custom sourcing and installers for your home project."
+    },
+    "custom": {
+      "name": "Custom Kitchen Cabinetry",
+      "title": "Custom Kitchen Cabinets in San Marcos | Model Home Inc.",
+      "description": "Plan custom kitchen cabinetry with Model Home Inc. in San Marcos. Discuss materials, custom requests and installation for your North County San Diego project.",
+      "h1": "Custom Kitchen Cabinetry in North County San Diego"
+    },
+    "wood": {
+      "name": "Hardwood Flooring",
+      "title": "Hardwood Flooring in San Marcos | Model Home Inc.",
+      "description": "Discuss hardwood flooring materials and installation with Model Home Inc. in San Marcos. Share your rooms, project city and goals to plan the next step.",
+      "h1": "Hardwood Flooring & Installation in North County San Diego"
+    },
+    "waterproof": {
+      "name": "Waterproof Flooring",
+      "h1": "Waterproof Flooring"
+    },
+    "semi-custom": {
+      "name": "Semi-Custom Kitchen Cabinetry",
+      "h1": "Semi-Custom Kitchen Cabinetry"
+    },
+    "rta": {
+      "name": "Ready-to-Assemble Kitchen Cabinets",
+      "h1": "Ready-to-Assemble Kitchen Cabinets"
+    },
+    "tile": {
+      "name": "Bathroom Tile",
+      "h1": "Bathroom Tile"
+    },
+    "vanity": {
+      "name": "Bathroom Vanities",
+      "h1": "Bathroom Vanities"
+    },
+    "faucet": {
+      "name": "Bathroom Faucets",
+      "h1": "Bathroom Faucets"
+    },
+    "doors": {
+      "name": "Doors",
+      "h1": "Doors"
+    },
+    "moulding": {
+      "name": "Moulding",
+      "h1": "Moulding"
+    }
+  },
+  "custom": {
+    "intro": [
+      "Your cabinet project starts with how you use your kitchen: storage, work surfaces, appliance locations and the look you want. Model Home Inc. has a storefront in San Marcos, supplies the materials and has installers who carry out the work. We can source unique materials and discuss custom requests for your project.",
+      "Share your existing layout, approximate measurements, appliance information and reference images. Tell us whether you are keeping the layout or changing it. We will discuss material choices, what needs to be measured and the installation scope before the project is booked.",
+      "Cabinet style, finish, storage features and hardware should be considered together. Custom requests need a review of availability and fit. Confirm cabinet brands, fabrication arrangements, final design responsibilities and any other trades in your proposal."
+    ],
+    "process": [
+      "Start with a project conversation, then confirm measurements and selections before approving an itemized proposal. Model Home supplies the materials and has installers who do the work. Ask the proposal to identify the cabinet specifications, installation work, removal, disposal and any work by other trades.",
+      "Appliance dimensions, door and drawer clearances, island spacing and the relationship to your flooring all affect the plan. Share details of a pantry, built-in or coffee station you have in mind so we can review the custom request. Availability, custom specifications, site readiness and installer scheduling affect timing; confirm a schedule before booking.",
+      "Compare the existing semi-custom and ready-to-assemble destinations if you are still choosing an approach. Pricing, consultation terms and timing are discussed for your project before booking."
+    ],
+    "questions": [
+      [
+        "Do you provide materials and installation?",
+        "Yes. Model Home has a storefront, supplies materials and has installers who perform the work. Tell us the scope you want so material supply and installation are identified separately in the proposal. Materials-only inquiries are also welcome."
+      ],
+      [
+        "Can I request a unique material or cabinet feature?",
+        "Yes. Model Home can source unique materials and review custom requests. Send a reference image and the function you need; availability, fit and fabrication arrangements must be confirmed before ordering."
+      ],
+      [
+        "What should I send for an initial estimate discussion?",
+        "Send your project city, room photos, approximate measurements, layout or plans, appliance dimensions, finish ideas and target timing. Final measurements and specifications are needed before an order is approved."
+      ],
+      [
+        "Can I keep my existing kitchen layout?",
+        "Tell us what you want to retain. The condition of the space, dimensions, appliances and proposed cabinet specifications need review before the scope is confirmed. Do not assume changes to plumbing or electrical work are included."
+      ],
+      [
+        "How do custom, semi-custom and RTA options compare?",
+        "Custom requests address project-specific needs. Semi-custom choices work within the selected supplier's options; RTA cabinets require assembly. Ask which options are available and what assembly and installation work is included."
+      ],
+      [
+        "What affects the price and schedule?",
+        "Cabinet quantities and specifications, finishes, custom requests, installation scope and site readiness affect a proposal. Product availability and installer scheduling also matter. Confirm current terms for your project before booking."
+      ]
+    ]
+  },
+  "wood": {
+    "intro": [
+      "Plan a wood floor around your rooms, the finish you want and the work required on site. Model Home Inc. has a storefront in San Marcos, supplies flooring materials and has installers who perform the work. Flooring and cabinetry are core offers, so you can discuss them together when planning a remodel.",
+      "Share the project city, approximate room areas, photos of the existing floor, any stairs and your preferred timing. Tell us whether the rooms are occupied and whether removal or furniture movement is needed. These details help define the project before an installation is booked.",
+      "Ask about the solid or engineered wood options available for your project. Product instructions and site conditions determine suitability; a wood floor is not automatically waterproof. We can source unique materials and custom requests, with availability and compatibility confirmed before ordering."
+    ],
+    "process": [
+      "Discuss your rooms and material preferences, confirm the site measurements and conditions, then review the material and installation proposal. Model Home supplies the materials and has installers who do the work. Materials-only purchases can be discussed separately if you already have an installer.",
+      "Ask the proposal to identify who handles existing-floor removal, furniture movement, disposal, preparation, transitions and installation. The installer should assess the substrate and moisture conditions against the selected manufacturer's instructions. Do not assume leveling, repairs or other preparation are included.",
+      "For stairs, send photos and dimensions and ask which treads, nosing and transition components suit the selected product. Confirm compatibility, finish matching and site details before including stairs in the scope. Product availability, preparation and installer scheduling affect the installation date."
+    ],
+    "questions": [
+      [
+        "Do you supply and install hardwood flooring?",
+        "Yes. Model Home supplies materials and has installers who perform the work. Discuss the rooms, site conditions and installation scope before booking. Materials-only purchases are a separate option."
+      ],
+      [
+        "What information helps with an estimate?",
+        "Send your project city, approximate room areas, photos, the existing floor type, stair details and timing. Identify removal, furniture movement and preparation needs so the proposal can state what is included."
+      ],
+      [
+        "Is every wood floor waterproof?",
+        "No. Check the selected product's instructions and warranty for moisture limitations. If you are comparing other materials, use the existing waterproof-flooring destination and confirm the specific product's suitability."
+      ],
+      [
+        "Can you include stairs?",
+        "Share stair photos, dimensions and the flooring you are considering. The appropriate components and installation details must be confirmed for that product and site before stairs are included in the scope."
+      ],
+      [
+        "Who is responsible for preparation?",
+        "Ask the proposal to name the responsibility for removal, disposal, substrate assessment, repairs and preparation. The needed work depends on site conditions and product instructions; it should be agreed before installation."
+      ],
+      [
+        "Can flooring and cabinets be planned together?",
+        "Yes. Discuss both as part of your project so materials, finished heights, transitions and the order of work can be reviewed. Confirm the final scope and schedule before booking."
+      ]
+    ]
+  }
+}

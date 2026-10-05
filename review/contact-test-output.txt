@@ -1,0 +1,80 @@
+TAP version 13
+# Subtest: genuine dispatch acceptance has explicit status and receipt
+ok 1 - genuine dispatch acceptance has explicit status and receipt
+  ---
+  duration_ms: 5.140582
+  ...
+# Subtest: malformed JSON is controlled
+ok 2 - malformed JSON is controlled
+  ---
+  duration_ms: 0.464977
+  ...
+# Subtest: wrong method has Allow header
+ok 3 - wrong method has Allow header
+  ---
+  duration_ms: 0.223991
+  ...
+# Subtest: invalid fields, arrays, missing contact, enum and limits are rejected
+ok 4 - invalid fields, arrays, missing contact, enum and limits are rejected
+  ---
+  duration_ms: 1.020855
+  ...
+# Subtest: phone-only inquiries accepted without reply_to
+ok 5 - phone-only inquiries accepted without reply_to
+  ---
+  duration_ms: 0.747671
+  ...
+# Subtest: honeypot is rejected without provider call
+ok 6 - honeypot is rejected without provider call
+  ---
+  duration_ms: 0.231905
+  ...
+# Subtest: oversized body and wrong content type rejected
+ok 7 - oversized body and wrong content type rejected
+  ---
+  duration_ms: 0.291348
+  ...
+# Subtest: untrusted browser origin rejected
+ok 8 - untrusted browser origin rejected
+  ---
+  duration_ms: 0.164617
+  ...
+# Subtest: missing sender/key/recipient and provider test sender rejected
+ok 9 - missing sender/key/recipient and provider test sender rejected
+  ---
+  duration_ms: 0.727303
+  ...
+# Subtest: provider refusal, invalid receipt, invalid JSON and network failure controlled
+ok 10 - provider refusal, invalid receipt, invalid JSON and network failure controlled
+  ---
+  duration_ms: 2.380054
+  ...
+# Subtest: provider timeout aborts and returns 504
+ok 11 - provider timeout aborts and returns 504
+  ---
+  duration_ms: 7.82339
+  ...
+# Subtest: unchanged retries reuse provider idempotency key; edited data differs
+ok 12 - unchanged retries reuse provider idempotency key; edited data differs
+  ---
+  duration_ms: 0.917557
+  ...
+# Subtest: preview and configured tests are identified as tests
+ok 13 - preview and configured tests are identified as tests
+  ---
+  duration_ms: 0.355526
+  ...
+# Subtest: inquiry text is escaped and PII is excluded from response
+ok 14 - inquiry text is escaped and PII is excluded from response
+  ---
+  duration_ms: 1.200592
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 122.172521

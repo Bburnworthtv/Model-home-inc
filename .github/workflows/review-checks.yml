@@ -1,0 +1,16 @@
+name: Website review checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contact-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - run: node --check site/api/contact.js
+      - run: node --check site/assets/site.js
+      - run: node --check site/assets/contact-rules.js
+      - run: node --test tools/contact.test.cjs

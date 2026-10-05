@@ -1,21 +1,490 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/store",
-      "destination": "/wood",
-      "permanent": true
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/index.html"
     },
     {
-      "source": "/store/:path*",
-      "destination": "/wood",
-      "permanent": true
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/index.html"
     },
     {
-      "source": "/quote",
-      "destination": "/#contact",
-      "permanent": true
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/index.html"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/index.html"
+    },
+    {
+      "source": "/custom",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/custom/index.html"
+    },
+    {
+      "source": "/custom",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/custom/index.html"
+    },
+    {
+      "source": "/custom",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/custom/index.html"
+    },
+    {
+      "source": "/custom",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/custom/index.html"
+    },
+    {
+      "source": "/wood",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/wood/index.html"
+    },
+    {
+      "source": "/wood",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/wood/index.html"
+    },
+    {
+      "source": "/wood",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/wood/index.html"
+    },
+    {
+      "source": "/wood",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/wood/index.html"
+    },
+    {
+      "source": "/waterproof",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/waterproof/index.html"
+    },
+    {
+      "source": "/waterproof",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/waterproof/index.html"
+    },
+    {
+      "source": "/waterproof",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/waterproof/index.html"
+    },
+    {
+      "source": "/waterproof",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/waterproof/index.html"
+    },
+    {
+      "source": "/semi-custom",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/semi-custom/index.html"
+    },
+    {
+      "source": "/semi-custom",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/semi-custom/index.html"
+    },
+    {
+      "source": "/semi-custom",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/semi-custom/index.html"
+    },
+    {
+      "source": "/semi-custom",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/semi-custom/index.html"
+    },
+    {
+      "source": "/rta",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/rta/index.html"
+    },
+    {
+      "source": "/rta",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/rta/index.html"
+    },
+    {
+      "source": "/rta",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/rta/index.html"
+    },
+    {
+      "source": "/rta",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/rta/index.html"
+    },
+    {
+      "source": "/tile",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/tile/index.html"
+    },
+    {
+      "source": "/tile",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/tile/index.html"
+    },
+    {
+      "source": "/tile",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/tile/index.html"
+    },
+    {
+      "source": "/tile",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/tile/index.html"
+    },
+    {
+      "source": "/vanity",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/vanity/index.html"
+    },
+    {
+      "source": "/vanity",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/vanity/index.html"
+    },
+    {
+      "source": "/vanity",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/vanity/index.html"
+    },
+    {
+      "source": "/vanity",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/vanity/index.html"
+    },
+    {
+      "source": "/faucet",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/faucet/index.html"
+    },
+    {
+      "source": "/faucet",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/faucet/index.html"
+    },
+    {
+      "source": "/faucet",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/faucet/index.html"
+    },
+    {
+      "source": "/faucet",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/faucet/index.html"
+    },
+    {
+      "source": "/doors",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/doors/index.html"
+    },
+    {
+      "source": "/doors",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/doors/index.html"
+    },
+    {
+      "source": "/doors",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/doors/index.html"
+    },
+    {
+      "source": "/doors",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/doors/index.html"
+    },
+    {
+      "source": "/moulding",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "mobile"
+        }
+      ],
+      "destination": "/_variants/mobile/moulding/index.html"
+    },
+    {
+      "source": "/moulding",
+      "has": [
+        {
+          "type": "query",
+          "key": "device",
+          "value": "tablet"
+        }
+      ],
+      "destination": "/_variants/tablet/moulding/index.html"
+    },
+    {
+      "source": "/moulding",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:iPad|Tablet).*"
+        }
+      ],
+      "destination": "/_variants/tablet/moulding/index.html"
+    },
+    {
+      "source": "/moulding",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:Mobile|Android|iPhone).*"
+        }
+      ],
+      "destination": "/_variants/mobile/moulding/index.html"
     }
   ],
   "headers": [
@@ -24,9 +493,14 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "api/contact.js": {
+      "maxDuration": 10
+    }
+  }
 }

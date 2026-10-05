@@ -1,0 +1,20 @@
+/* Surgical additions. The captured live site's styles remain authoritative. */
+#dm .mh-service-heading{font-family:Poppins,"Poppins Fallback"!important;font-size:48px!important;font-weight:700!important;line-height:1.5!important;letter-spacing:.1em!important;text-transform:none!important}
+.dmMobileBody #dm .mh-service-heading{font-size:30px!important}
+#dm .dmBody .dmNewParagraph h1.mh-hero-heading{font-family:Poppins,"Poppins Fallback"!important;font-size:72px!important;font-weight:700!important;line-height:1.2!important;letter-spacing:.1em!important;text-transform:none!important}
+.dmMobileBody #dm .dmBody .dmNewParagraph h1.mh-hero-heading{font-size:36px!important}
+#dm .mh-breadcrumb{font-size:13px!important;margin-bottom:20px!important}
+#dm .dmBody div.dmNewParagraph h2.mh-questions-title{font-family:Poppins,"Poppins Fallback"!important;font-size:22px!important;font-weight:400!important;letter-spacing:1px!important;line-height:1.4!important;margin:28px 0 16px!important}
+#dm .mh-answer{text-align:left;border-bottom:1px solid #c6c6c6;padding:14px 0}
+#dm .mh-answer summary{cursor:pointer;font-weight:500}
+#dm .mh-answer p{margin:12px 0 4px}
+#dm form#cform .mh-label{display:block;font-family:Poppins,sans-serif;font-size:13px;line-height:1.6;text-align:left}
+#dm form#cform select{width:100%;padding:8px;background:#fff;color:#111;border:1px solid #ccc;font:inherit;min-height:38px}
+#dm form#cform .mh-hp{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important}
+#dm form#cform .mh-privacy{clear:both;padding-top:16px;font-size:12px!important;line-height:1.6!important;color:#fff!important}
+#dm form#cform .mh-privacy a{color:inherit;text-decoration:underline}
+#dm form#cform .fmsg{clear:both;background:#fff;color:#111!important;padding:14px;margin:12px 0;line-height:1.5}
+[hidden]{display:none!important}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid #48566a!important;outline-offset:4px}
+[id=Contact],[id=contact]{scroll-margin-top:110px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
