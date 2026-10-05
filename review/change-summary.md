@@ -30,6 +30,8 @@ The two rewritten destinations are `/custom` and `/wood`. Homepage changes are b
 
 Imagery remains the live site's existing imagery. It is not labeled as a completed Model Home project. Project provenance and publication rights need confirmation before proof content is added.
 
+The original “Crafting Your Dream Spaces” section heading and styled spans are restored on `/custom` and `/wood` at the user’s request; the project guidance beneath remains.
+
 ## Visible differences to review
 
 Longer service headings and useful buying guidance increase the text sections' height. Breadcrumbs, expandable answers and contact qualification fields use the existing palette and typography. The footer adds the verified San Marcos locality. Existing mobile consultation buttons remain hidden unless the user approves revealing them; the question is pending. Exact phone-header layout has been retained.

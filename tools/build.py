@@ -127,7 +127,7 @@ for kind in ['desktop','mobile','tablet']:
             text_in_element(doc,'1689997905','Materials, custom requests & installation' if route=='custom' else 'Wood flooring materials & installation')
             replace_content(doc.get_element_by_id('1330027818'),paragraphs(CONTENT[route]['intro']))
             text_in_element(doc,'1332028869','PLANNING YOUR PROJECT')
-            text_in_element(doc,'1017293919','Selections, Scope & Installation')
+            # Retain the live 'Crafting Your Dream Spaces' heading and its original styled spans.
             questions=''.join('<details class="mh-answer"><summary>'+q+'</summary><p>'+a+'</p></details>' for q,a in CONTENT[route]['questions'])
             links='<p>Compare <a href="/semi-custom">semi-custom cabinets</a> and <a href="/rta">RTA cabinets</a>, or plan your <a href="/wood">wood flooring</a>.</p>' if route=='custom' else '<p>Compare <a href="/waterproof">waterproof flooring</a>, browse <a href="https://www.modelhomeinc.com/store/Laminate-c161564962">laminate materials</a>, or discuss <a href="/custom">cabinetry</a> for the same project.</p>'
             replace_content(doc.get_element_by_id('1507881592'),paragraphs(CONTENT[route]['process'])+links+'<h2 class="mh-questions-title">Questions before you book</h2>'+questions)
