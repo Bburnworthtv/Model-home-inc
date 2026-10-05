@@ -130,7 +130,7 @@ for kind in ['desktop','mobile','tablet']:
             # Retain the live 'Crafting Your Dream Spaces' heading and its original styled spans.
             questions=''.join('<details class="mh-answer"><summary>'+q+'</summary><p>'+a+'</p></details>' for q,a in CONTENT[route]['questions'])
             links='<p>Compare <a href="/semi-custom">semi-custom cabinets</a> and <a href="/rta">RTA cabinets</a>, or plan your <a href="/wood">wood flooring</a>.</p>' if route=='custom' else '<p>Compare <a href="/waterproof">waterproof flooring</a>, browse <a href="https://www.modelhomeinc.com/store/Laminate-c161564962">laminate materials</a>, or discuss <a href="/custom">cabinetry</a> for the same project.</p>'
-            replace_content(doc.get_element_by_id('1507881592'),paragraphs(CONTENT[route]['process'])+links+'<h2 class="mh-questions-title">Questions before you book</h2>'+questions)
+            replace_content(doc.get_element_by_id('1507881592'),'<div class="mh-project-guide">'+paragraphs(CONTENT[route]['process'])+'</div>'+links+'<h2 class="mh-questions-title">Questions before you book</h2>'+questions)
         # Preserve other destinations' existing metadata and copy. Name their H1 only.
         else:
             # Elevate the existing hero title semantically; keep secondary-page copy intact.

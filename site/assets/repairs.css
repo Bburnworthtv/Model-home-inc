@@ -18,3 +18,8 @@
 a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid #48566a!important;outline-offset:4px}
 [id=Contact],[id=contact]{scroll-margin-top:110px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Keep the existing palette and type; separate the project guide into short labeled blocks. */
+#dm .mh-project-guide{text-align:left}
+#dm .mh-project-guide p{margin:0 0 20px!important}
+#dm .mh-project-guide strong{display:block;margin-bottom:6px;font-weight:600}

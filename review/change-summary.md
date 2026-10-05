@@ -32,6 +32,8 @@ Imagery remains the live site's existing imagery. It is not labeled as a complet
 
 The original “Crafting Your Dream Spaces” section heading and styled spans are restored on `/custom` and `/wood` at the user’s request; the project guidance beneath remains.
 
+The Dream Spaces text on both priority pages uses three short, clearly labeled blocks: what Model Home does, what the customer should send, and what to confirm before booking. The existing fonts and colors are retained.
+
 ## Visible differences to review
 
 Longer service headings and useful buying guidance increase the text sections' height. Breadcrumbs, expandable answers and contact qualification fields use the existing palette and typography. The footer adds the verified San Marcos locality. Existing mobile consultation buttons remain hidden unless the user approves revealing them; the question is pending. Exact phone-header layout has been retained.
