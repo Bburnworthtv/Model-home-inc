@@ -1,8 +1,8 @@
 # Model Home website review — October 5, 2026
 
-Review branch: `review/seo-contact-custom-wood`. Deployable website directory: `site/`. This is a local review candidate, not an approved production release.
+Draft GitHub review: [PR #1](https://github.com/Bburnworthtv/Model-home-inc/pull/1). Review branch: `review/seo-contact-custom-wood`. Deployable website directory: `site/`. This is a local review candidate, not an approved production release.
 
-The original archive was preserved. The recovered website is saved in the initial Git commit. `live-source/` contains public desktop, phone and tablet HTML captured on October 5, with an unused mapping credential flagged by GitHub removed after GitHub push protection identified it. The user's later instruction to match the live template supersedes the handoff's black/white/yellow recovered-template direction. `site/` retains the actual live site's wrappers, imagery, fonts, colors, header, section order, cards and footer.
+The original archive was preserved. The recovered website is saved in the initial Git commit. `live-source/` contains public desktop, phone and tablet HTML captured on October 5, with unused mapping credential configuration removed after GitHub push protection flagged it. The user's later instruction to match the live template supersedes the handoff's black/white/yellow recovered-template direction. `site/` retains the actual live site's wrappers, imagery, fonts, colors, header, section order, cards and footer.
 
 ## Preview and evidence
 

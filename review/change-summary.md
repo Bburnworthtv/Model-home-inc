@@ -6,7 +6,7 @@ October 5, 2026. Production has not been changed.
 
 The supplied recovered template differs visibly from the current public site. Following the user's latest instruction, the candidate uses the captured live desktop, mobile and tablet templates. Existing page wrappers, stylesheet URLs, backgrounds, image crops, header, service cards, section order and footer are retained. The store and wholesale links continue to the current public site during local review.
 
-GitHub push protection found an unused mapping credential flagged by GitHub in the public platform HTML. It was removed from the reference captures, candidate HTML and unpublished commit. No map widget is used on these pages, and push protection was not bypassed.
+GitHub push protection flagged an unused mapping credential in the public platform HTML. It was removed from the reference captures, candidate HTML and unpublished commit. No map widget is used on these pages, and push protection was not bypassed.
 
 The two rewritten destinations are `/custom` and `/wood`. Homepage changes are bounded supporting edits to positioning, contact, headings and business description. The other eight service destinations retain their existing copy and metadata. Their existing hero titles become H1s without replacing their text, and shared business/schema/contact repairs apply to them.
 
