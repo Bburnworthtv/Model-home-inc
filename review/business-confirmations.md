@@ -25,3 +25,8 @@ Still needed before the associated claims or launch work:
 - Choose whether to reveal the existing phone consultation buttons/add a matching call action. The current candidate retains the exact phone layout pending a response.
 
 No fabricated reviews, ratings, project credits, brands, prices, free consultations or response-time promises were added.
+
+Added October 6:
+
+- Confirm the service-area list now shown on the homepage and in schema: San Marcos, San Elijo Hills, Lake San Marcos, Carlsbad, Encinitas, Rancho Santa Fe and parts of Escondido. It comes from the agency handoff's target markets, not from an owner statement.
+- Confirm whether Dustin Roller should be named publicly as owner (About page and schema).

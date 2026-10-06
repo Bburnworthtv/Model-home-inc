@@ -49,20 +49,40 @@ def head_meta(doc, page, route):
     if canonical:canonical[0].set('href',url)
     else:etree.SubElement(head,'link',rel='canonical',href=url)
     for node in head.xpath('meta[@property="og:url"]'):node.set('content',url)
+    site=head.xpath('meta[@property="og:site_name"]')
+    site=site[0] if site else etree.SubElement(head,'meta',property='og:site_name')
+    site.set('content',CONTENT['business']['name'])
+    for name,value in [('twitter:title',page.get('title')),('twitter:description',page.get('description'))]:
+        for node in head.xpath('meta[@name="%s"]'%name):
+            if value:node.set('content',value)
+
+# Service area is stated in the visible homepage copy; schema lists the same places only.
+AREAS=[{'@type':'AdministrativeArea' if name=='North County San Diego' else 'Place','name':name if name=='North County San Diego' else name+', California'} for name in CONTENT['business']['area_served']]
+
+def set_link(doc, id, href, label=None):
+    node=doc.get_element_by_id(id,None)
+    if node is None:return
+    node.set('href',href)
+    if label:
+        spans=node.xpath('.//span[@class="text"]')
+        if spans:spans[0].text=label
 
 def schema(doc, route, page):
     for node in doc.xpath('//script[@type="application/ld+json"]'):node.getparent().remove(node)
     b=CONTENT['business']
-    business={'@type':'HomeAndConstructionBusiness','@id':BASE+'/#business','name':b['name'],'url':BASE+'/','telephone':b['telephone'],'email':b['email'],'description':b['description'],'address':{'@type':'PostalAddress','addressLocality':b['locality'],'addressRegion':b['region'],'addressCountry':'US'},'areaServed':{'@type':'Place','name':'San Marcos, California'}}
+    business={'@type':'HomeAndConstructionBusiness','@id':BASE+'/#business','name':b['name'],'url':BASE+'/','telephone':b['telephone'],'email':b['email'],'description':b['description'],'address':{'@type':'PostalAddress','addressLocality':b['locality'],'addressRegion':b['region'],'addressCountry':'US'},'areaServed':AREAS}
     business['logo']=BASE+'/assets/img/logo.png'
     business['hasOfferCatalog']={'@type':'OfferCatalog','name':'Flooring, Cabinetry and Interior Materials','itemListElement':[{'@type':'Offer','itemOffered':{'@type':'Service','@id':BASE+'/'+key+'#service','name':value['name'],'url':BASE+'/'+key}} for key,value in CONTENT['pages'].items() if key]}
     graph=[business]
     url=BASE+'/'+route
     if route:
         desc=page.get('description') or (doc.xpath('//meta[@name="description"]/@content') or [''])[0]
-        graph += [{'@type':'Service','@id':url+'#service','name':page['name'],'serviceType':page['name'],'url':url,'description':desc,'provider':{'@id':BASE+'/#business'},'areaServed':{'@type':'Place','name':'San Marcos, California'}}, {'@type':'BreadcrumbList','@id':url+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':page['name'],'item':url}]}]
+        graph += [{'@type':'Service','@id':url+'#service','name':page['name'],'serviceType':page['name'],'url':url,'description':desc,'provider':{'@id':BASE+'/#business'},'areaServed':AREAS}, {'@type':'BreadcrumbList','@id':url+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':page['name'],'item':url}]}]
         graph += [{'@type':'WebPage','@id':url+'#webpage','url':url,'name':page.get('title') or page['name'],'about':{'@id':url+'#service'},'breadcrumb':{'@id':url+'#breadcrumb'}}]
-    else:graph += [{'@type':'WebSite','@id':BASE+'/#website','url':url,'name':b['name'],'publisher':{'@id':BASE+'/#business'}}]
+        if route in CONTENT and CONTENT[route].get('questions'):
+            # Mirrors the visible "Questions before you book" answers exactly.
+            graph += [{'@type':'FAQPage','@id':url+'#faq','isPartOf':{'@id':url+'#webpage'},'mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in CONTENT[route]['questions']]}]
+    else:graph += [{'@type':'WebSite','@id':BASE+'/#website','url':url,'name':b['name'],'publisher':{'@id':BASE+'/#business'}},{'@type':'WebPage','@id':url+'#webpage','url':url,'name':page['title'],'isPartOf':{'@id':BASE+'/#website'},'about':{'@id':BASE+'/#business'}}]
     node=etree.SubElement(doc.find('head'),'script',type='application/ld+json')
     node.text=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False)
 
@@ -136,6 +156,12 @@ for kind in ['desktop','mobile','tablet']:
             # Elevate the existing hero title semantically; keep secondary-page copy intact.
             hero_heading=doc.get_element_by_id('1818480987').xpath('.//h2')[0]
             hero_heading.tag='h1';hero_heading.set('class',hero_heading.get('class','')+' mh-hero-heading')
+            labels=CONTENT['link_labels'];related=page.get('related',[])
+            if related:
+                items=['<a href="/%s">%s</a>'%(key,labels[key]) for key in related]
+                joined=items[0] if len(items)==1 else ', '.join(items[:-1])+' or '+items[-1]
+                guide=doc.get_element_by_id('1507881592',None)
+                if guide is not None:guide.append(fragment('<p class="mh-related">Planning a larger project? See '+joined+', or <a href="/#Contact">tell us about your project</a>.</p>')[0])
         crumb=fragment('<p class="mh-breadcrumb"><a href="/">Home</a> <span aria-hidden="true">›</span> '+page['name']+'</p>')[0]
         intro=doc.get_element_by_id('1330027818');intro.insert(0,crumb)
         for node in doc.xpath('//a[@popup_target="quote"]'):
@@ -147,12 +173,21 @@ for kind in ['desktop','mobile','tablet']:
     else:
         text_in_element(doc,'1882875877','Flooring, Cabinetry & Custom Interior Work in North County San Diego')
         for id,label in [('1000516574','Flooring Materials & Installation'),('1889816509','Cabinetry Materials & Installation'),('1414553920','Bathroom Materials'),('1826233051','Doors for Your Home'),('1765856950','Moulding & Interior Details')]:text_in_element(doc,id,label)
-        text_in_element(doc,'1969111330',CONTENT['business']['description']+' Flooring and cabinetry are equal core offers. Tell us about your project, preferred materials and installation needs before booking. Confirm availability and visit arrangements before coming to the storefront.')
+        text_in_element(doc,'1969111330',CONTENT['business']['about'])
         for node in doc.xpath('//a[@popup_target="quote"]'):
             node.set('href','#Contact');node.attrib.pop('popup_target',None)
             node.attrib.pop('link_type',None)
             spans=node.xpath('.//span[@class="text"]')
             if spans:spans[0].text='Discuss Your Project'
+        # Hero and card buttons: lead to an inquiry or the matching service page, never back to '/'.
+        set_link(doc,'1585402858','#Contact','Discuss Your Project')
+        for id,label in [('1441435920','Cabinetry & Flooring Together'),('1860717011','Materials & Installation'),('1586717651','Semi-Custom & RTA Options')]:text_in_element(doc,id,label)
+        for id,href,label in [('1438979613','/wood','Plan Both'),('1612889581','/semi-custom','Compare Options'),('1036778408','#Contact',None),('1177686870','/tile',None),('1223696892','/vanity',None),('1227403310','/doors',None),('1461293461','/doors',None),('1118025133','#Contact','Discuss Your Project'),('1954786854','#Contact',None),('1714303192','/store/Laminate-c161564962',None),('1272547174','/waterproof',None)]:set_link(doc,id,href,label)
+        # Any remaining card button that still points at '/' goes to its own section's page.
+        section_pages={'FLOORING':'/wood','KITCHEN':'/custom','BATH':'/tile','DOORS':'/doors','MOULDING':'/moulding'}
+        for node in doc.get_element_by_id('dmFirstContainer').xpath('.//a[@href="/"]'):
+            section=node.xpath('preceding::h2[1]')
+            node.set('href',section_pages.get(' '.join(section[0].text_content().split()) if section else '','#Contact'))
         build_form(doc)
         contact=doc.get_element_by_id('1407431586',None)
         if contact is not None:replace_content(contact,'<p>Tell us about your flooring or cabinetry installation project, custom request or material inquiry. <a href="tel:760-682-5027">Call 760-682-5027</a> or <a href="mailto:info@modelhomeinc.com">email info@modelhomeinc.com</a>.</p>')

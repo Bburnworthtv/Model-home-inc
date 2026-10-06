@@ -28,7 +28,7 @@
       "device": "desktop",
       "route": "/waterproof",
       "h1": "WATERPROOF",
-      "title": "\n    Waterproof Flooring Solutions | USA\n  ",
+      "title": "Waterproof Flooring in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/waterproof",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -36,7 +36,7 @@
       "device": "desktop",
       "route": "/semi-custom",
       "h1": "SEMI-CUSTOM",
-      "title": "\n    Semi-Custom Kitchen Solutions | USA\n  ",
+      "title": "Semi-Custom Kitchen Cabinets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/semi-custom",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -44,7 +44,7 @@
       "device": "desktop",
       "route": "/rta",
       "h1": "RTA",
-      "title": "\n    Stylish RTA Kitchens & Flooring | USA\n  ",
+      "title": "RTA Kitchen Cabinets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/rta",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -52,7 +52,7 @@
       "device": "desktop",
       "route": "/tile",
       "h1": "TILE",
-      "title": "\n    Stylish Bathroom Tiles | Model Home Inc. | USA\n  ",
+      "title": "Bathroom Tile in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/tile",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -60,7 +60,7 @@
       "device": "desktop",
       "route": "/vanity",
       "h1": "VANITY",
-      "title": "\n    Custom Vanities & Flooring | USA\n  ",
+      "title": "Bathroom Vanities in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/vanity",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -68,7 +68,7 @@
       "device": "desktop",
       "route": "/faucet",
       "h1": "FAUCET",
-      "title": "\n    Stylish Faucets | USA\n  ",
+      "title": "Bathroom Faucets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/faucet",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -76,7 +76,7 @@
       "device": "desktop",
       "route": "/doors",
       "h1": "DOORS",
-      "title": "\n    Stylish Doors | Model Home Inc. | USA\n  ",
+      "title": "Doors in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/doors",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -84,7 +84,7 @@
       "device": "desktop",
       "route": "/moulding",
       "h1": "MOULDING",
-      "title": "\n    Moulding | Stylish Custom Flooring & Cabinets | USA\n  ",
+      "title": "Moulding & Interior Trim in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/moulding",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -116,7 +116,7 @@
       "device": "mobile",
       "route": "/waterproof",
       "h1": "WATERPROOF",
-      "title": "\n    Waterproof Flooring Solutions | USA\n  ",
+      "title": "Waterproof Flooring in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/waterproof",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -124,7 +124,7 @@
       "device": "mobile",
       "route": "/semi-custom",
       "h1": "SEMI-CUSTOM",
-      "title": "\n    Semi-Custom Kitchen Solutions | USA\n  ",
+      "title": "Semi-Custom Kitchen Cabinets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/semi-custom",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -132,7 +132,7 @@
       "device": "mobile",
       "route": "/rta",
       "h1": "RTA",
-      "title": "\n    Stylish RTA Kitchens & Flooring | USA\n  ",
+      "title": "RTA Kitchen Cabinets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/rta",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -140,7 +140,7 @@
       "device": "mobile",
       "route": "/tile",
       "h1": "TILE",
-      "title": "\n    Stylish Bathroom Tiles | Model Home Inc. | USA\n  ",
+      "title": "Bathroom Tile in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/tile",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -148,7 +148,7 @@
       "device": "mobile",
       "route": "/vanity",
       "h1": "VANITY",
-      "title": "\n    Custom Vanities & Flooring | USA\n  ",
+      "title": "Bathroom Vanities in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/vanity",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -156,7 +156,7 @@
       "device": "mobile",
       "route": "/faucet",
       "h1": "FAUCET",
-      "title": "\n    Stylish Faucets | USA\n  ",
+      "title": "Bathroom Faucets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/faucet",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -164,7 +164,7 @@
       "device": "mobile",
       "route": "/doors",
       "h1": "DOORS",
-      "title": "\n    Stylish Doors | Model Home Inc. | USA\n  ",
+      "title": "Doors in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/doors",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -172,7 +172,7 @@
       "device": "mobile",
       "route": "/moulding",
       "h1": "MOULDING",
-      "title": "\n    Moulding | Stylish Custom Flooring & Cabinets | USA\n  ",
+      "title": "Moulding & Interior Trim in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/moulding",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -204,7 +204,7 @@
       "device": "tablet",
       "route": "/waterproof",
       "h1": "WATERPROOF",
-      "title": "\n    Waterproof Flooring Solutions | USA\n  ",
+      "title": "Waterproof Flooring in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/waterproof",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -212,7 +212,7 @@
       "device": "tablet",
       "route": "/semi-custom",
       "h1": "SEMI-CUSTOM",
-      "title": "\n    Semi-Custom Kitchen Solutions | USA\n  ",
+      "title": "Semi-Custom Kitchen Cabinets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/semi-custom",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -220,7 +220,7 @@
       "device": "tablet",
       "route": "/rta",
       "h1": "RTA",
-      "title": "\n    Stylish RTA Kitchens & Flooring | USA\n  ",
+      "title": "RTA Kitchen Cabinets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/rta",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -228,7 +228,7 @@
       "device": "tablet",
       "route": "/tile",
       "h1": "TILE",
-      "title": "\n    Stylish Bathroom Tiles | Model Home Inc. | USA\n  ",
+      "title": "Bathroom Tile in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/tile",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -236,7 +236,7 @@
       "device": "tablet",
       "route": "/vanity",
       "h1": "VANITY",
-      "title": "\n    Custom Vanities & Flooring | USA\n  ",
+      "title": "Bathroom Vanities in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/vanity",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -244,7 +244,7 @@
       "device": "tablet",
       "route": "/faucet",
       "h1": "FAUCET",
-      "title": "\n    Stylish Faucets | USA\n  ",
+      "title": "Bathroom Faucets in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/faucet",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -252,7 +252,7 @@
       "device": "tablet",
       "route": "/doors",
       "h1": "DOORS",
-      "title": "\n    Stylish Doors | Model Home Inc. | USA\n  ",
+      "title": "Doors in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/doors",
       "schema": "valid JSON and asserted graph fields"
     },
@@ -260,7 +260,7 @@
       "device": "tablet",
       "route": "/moulding",
       "h1": "MOULDING",
-      "title": "\n    Moulding | Stylish Custom Flooring & Cabinets | USA\n  ",
+      "title": "Moulding & Interior Trim in San Marcos | Model Home Inc.",
       "canonical": "https://www.modelhomeinc.com/moulding",
       "schema": "valid JSON and asserted graph fields"
     }

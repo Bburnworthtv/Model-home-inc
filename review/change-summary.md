@@ -41,3 +41,25 @@ Longer service headings and useful buying guidance increase the text sections' h
 ## Verification limits
 
 Local source/schema/route checks, mocked backend tests and browser behavior are recorded in the adjacent JSON reports. Provider acceptance, inbox receipt, durable storage, real analytics collection, deployed Vercel rewrites, real-device testing, rankings and field performance are not claimed as verified.
+
+## October 6 audit pass (branch `review/audit-metadata-schema-links`)
+
+Audit of `review/seo-contact-custom-wood` at `7694091`: `tools/build.py` reproduces all 33 committed page variants byte-for-byte, so the refined `/custom`, `/wood` and homepage work lives in `tools/content.json` and `tools/build.py`. Edit those, not the generated HTML.
+
+Changed in this pass:
+
+- Eight secondary pages: replaced the legacy `... | USA` titles (with stray whitespace) and "Explore now!" descriptions with unique San Marcos titles and factual descriptions. Body copy on those pages is unchanged.
+- Every page: `og:site_name` set; Twitter title/description follow the page title/description.
+- Schema: `areaServed` now lists North County San Diego and the named service areas, matching a new sentence in the homepage About text. `FAQPage` added on `/custom` and `/wood`, generated from the visible questions. Homepage gains a `WebPage` node.
+- Homepage links: 12 card buttons pointed back to `/`, and two flooring cards were mislinked on the live site (Laminate to `/semi-custom`, Luxury Vinyl to `/vanity`). All now go to the matching service page or the inquiry form. The hero button is "Discuss Your Project" to the form instead of "Shop Now"; the store remains in the navigation.
+- Homepage kitchen cards: "Expert Designers", "High-Quality Craft" and "Collaborative Process" became "Cabinetry & Flooring Together", "Materials & Installation" and "Semi-Custom & RTA Options". Design responsibility is still an open owner question, so the designer claim was removed.
+- Secondary pages: each ends with a short related-links line to the relevant core page and the inquiry form. Previously they linked only to Home and Contact.
+- `tools/validate.py` now fails on legacy titles, metadata length, missing `og:site_name`, FAQ schema that differs from visible questions, schema areas absent from visible copy, homepage self-links, and any street address, license number or owner name appearing in schema before confirmation.
+
+Not changed, and why:
+
+- Street address, CSLB number and owner name are held in `content.json` under `pending_confirmation` and are not published. The Suite F / Unit G question is open and the CSLB lookup again returned no record data.
+- Secondary-page H1s remain the one-word hero titles (`WATERPROOF`, `RTA`, ...). Changing them alters the hero design; do it with the secondary-page content pass.
+- Nine homepage images have empty alt text. The image CDN is not reachable from the build environment, so they could not be viewed and no alt text was guessed. The homepage images are stock photos (Pexels filenames).
+- `review/store-category-migration-draft.csv` maps 15 of 66 store category URLs by name. The other 51 are collection or brand names that need the catalog's parent-category data. The 484 product URLs are untouched. Nothing is wired into `vercel.json`.
+- Browser, visual and screenshot checks were not rerun: they need the hosted template assets and a local Chrome. Rerun `node tools/browser.test.cjs` and `node tools/capture.cjs after` before approving.

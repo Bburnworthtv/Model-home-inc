@@ -5,7 +5,25 @@
     "email": "info@modelhomeinc.com",
     "locality": "San Marcos",
     "region": "CA",
-    "description": "Model Home Inc. is a San Marcos storefront offering flooring and cabinetry materials, custom material sourcing and installation through its installers. Discuss a North County San Diego home project."
+    "description": "Model Home Inc. is a San Marcos storefront offering flooring and cabinetry materials, custom material sourcing and installation through its installers. Discuss a North County San Diego home project.",
+    "area_served": [
+      "North County San Diego",
+      "San Marcos",
+      "Carlsbad",
+      "Encinitas",
+      "Rancho Santa Fe",
+      "San Elijo Hills",
+      "Lake San Marcos",
+      "Escondido"
+    ],
+    "about": "Model Home Inc. is a San Marcos storefront that supplies flooring and cabinetry materials, sources custom materials and installs them through its installers. Cabinetry and flooring can be planned together as one project. We work on homes across North County San Diego, including San Marcos, San Elijo Hills, Lake San Marcos, Carlsbad, Encinitas, Rancho Santa Fe and parts of Escondido. Tell us about your project, preferred materials and installation needs before booking, and confirm availability before visiting the storefront.",
+    "pending_confirmation": {
+      "_note": "Not published. Move into the live fields only after Dustin confirms; see review/business-confirmations.md.",
+      "streetAddress": "1070 Commerce St, Suite F",
+      "postalCode": "92078",
+      "license": "CSLB #927826, B - General Building",
+      "owner": "Dustin Roller"
+    }
   },
   "pages": {
     "": {
@@ -27,35 +45,84 @@
     },
     "waterproof": {
       "name": "Waterproof Flooring",
-      "h1": "Waterproof Flooring"
+      "h1": "Waterproof Flooring",
+      "title": "Waterproof Flooring in San Marcos | Model Home Inc.",
+      "description": "Compare waterproof flooring materials at Model Home Inc. in San Marcos. Ask about product suitability for your rooms and installation for your project.",
+      "related": [
+        "wood"
+      ]
     },
     "semi-custom": {
       "name": "Semi-Custom Kitchen Cabinetry",
-      "h1": "Semi-Custom Kitchen Cabinetry"
+      "h1": "Semi-Custom Kitchen Cabinetry",
+      "title": "Semi-Custom Kitchen Cabinets in San Marcos | Model Home Inc.",
+      "description": "Semi-custom kitchen cabinets from Model Home Inc. in San Marcos. Discuss cabinet options, measurements and installation for your North County San Diego kitchen.",
+      "related": [
+        "custom",
+        "rta"
+      ]
     },
     "rta": {
       "name": "Ready-to-Assemble Kitchen Cabinets",
-      "h1": "Ready-to-Assemble Kitchen Cabinets"
+      "h1": "Ready-to-Assemble Kitchen Cabinets",
+      "title": "RTA Kitchen Cabinets in San Marcos | Model Home Inc.",
+      "description": "Ready-to-assemble kitchen cabinets from Model Home Inc. in San Marcos. Ask what assembly and installation are included before you order.",
+      "related": [
+        "custom",
+        "semi-custom"
+      ]
     },
     "tile": {
       "name": "Bathroom Tile",
-      "h1": "Bathroom Tile"
+      "h1": "Bathroom Tile",
+      "title": "Bathroom Tile in San Marcos | Model Home Inc.",
+      "description": "Bathroom tile materials from Model Home Inc. in San Marcos. Share your room, photos and project city to discuss tile options for your home.",
+      "related": [
+        "vanity",
+        "faucet"
+      ]
     },
     "vanity": {
       "name": "Bathroom Vanities",
-      "h1": "Bathroom Vanities"
+      "h1": "Bathroom Vanities",
+      "title": "Bathroom Vanities in San Marcos | Model Home Inc.",
+      "description": "Bathroom vanities from Model Home Inc. in San Marcos. Send measurements and the style you want to discuss options for your bathroom project.",
+      "related": [
+        "tile",
+        "faucet",
+        "custom"
+      ]
     },
     "faucet": {
       "name": "Bathroom Faucets",
-      "h1": "Bathroom Faucets"
+      "h1": "Bathroom Faucets",
+      "title": "Bathroom Faucets in San Marcos | Model Home Inc.",
+      "description": "Bathroom faucets from Model Home Inc. in San Marcos. Ask about finishes and fit alongside vanity and tile selections for your project.",
+      "related": [
+        "vanity",
+        "tile"
+      ]
     },
     "doors": {
       "name": "Doors",
-      "h1": "Doors"
+      "h1": "Doors",
+      "title": "Doors in San Marcos | Model Home Inc.",
+      "description": "Doors for your home from Model Home Inc. in San Marcos. Share openings, photos and the style you want to discuss door options for your project.",
+      "related": [
+        "moulding",
+        "wood"
+      ]
     },
     "moulding": {
       "name": "Moulding",
-      "h1": "Moulding"
+      "h1": "Moulding",
+      "title": "Moulding & Interior Trim in San Marcos | Model Home Inc.",
+      "description": "Moulding and interior trim materials from Model Home Inc. in San Marcos. Plan trim alongside flooring, doors and cabinetry for your home.",
+      "related": [
+        "doors",
+        "wood",
+        "custom"
+      ]
     }
   },
   "custom": {
@@ -133,5 +200,17 @@
         "Yes. Discuss both as part of your project so materials, finished heights, transitions and the order of work can be reviewed. Confirm the final scope and schedule before booking."
       ]
     ]
+  },
+  "link_labels": {
+    "custom": "custom cabinetry",
+    "wood": "hardwood flooring",
+    "semi-custom": "semi-custom cabinets",
+    "rta": "RTA cabinets",
+    "waterproof": "waterproof flooring",
+    "tile": "bathroom tile",
+    "vanity": "bathroom vanities",
+    "faucet": "bathroom faucets",
+    "doors": "doors",
+    "moulding": "moulding"
   }
 }
