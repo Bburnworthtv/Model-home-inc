@@ -18,6 +18,24 @@ for kind in ['desktop','mobile','tablet']:
     for node in graph['@graph']:
       if node['@type']=='Service':assert node['name'] and node['serviceType'] and node['@id'] and node['provider']['@id']=='https://www.modelhomeinc.com/#business'
     assert len(doc.xpath('//script[@src="/assets/site.js"]'))==1
+    assert title[0]==title[0].strip() and '| USA' not in title[0],(kind,route,'legacy title')
+    assert 30<=len(title[0])<=65 and 70<=len(desc[0])<=160,(kind,route,'metadata length',len(title[0]),len(desc[0]))
+    assert doc.xpath('//meta[@property="og:site_name"]/@content')==['Model Home Inc.'],(kind,route,'og:site_name')
+    assert doc.xpath('//meta[@property="og:title"]/@content')==[title[0]],(kind,route,'og:title')
+    types=[node['@type'] for node in graph['@graph']]
+    for node in graph['@graph']:
+      if node['@type']=='BreadcrumbList':assert all(item.get('name') and item.get('item') for item in node['itemListElement']),(kind,route,'breadcrumb')
+      if node['@type']=='FAQPage':
+        visible=[' '.join(x.text_content().split()) for x in doc.xpath('//details[@class="mh-answer"]/summary')]
+        assert [q['name'] for q in node['mainEntity']]==visible,(kind,route,'FAQ schema must match visible questions')
+    assert ('FAQPage' in types)==(route in ['custom','wood']),(kind,route,'FAQ scope')
+    for banned in ['streetAddress','927826','Dustin']:assert banned not in json.dumps(graph),(kind,route,'unconfirmed fact published',banned)
+    if not route:
+      main=doc.get_element_by_id('dmFirstContainer')
+      assert not main.xpath('.//a[@href="/"]'),(kind,'homepage button links back to itself')
+      text=' '.join(main.text_content().split())
+      for place in content['business']['area_served']:assert place in text,(kind,'area in schema but not in visible copy',place)
+    else:assert doc.xpath('//a[@href="/custom" or @href="/wood"]') or route in ['tile','faucet'],(kind,route,'no path to a core page')
     assert not doc.xpath('//script[contains(@src,"googletagmanager")]')
     for el in doc.xpath('//*[@href] | //*[@src]'):
       link=el.get('href') or el.get('src');target=urlparse(link)
